@@ -1,5 +1,3 @@
-using System;
-
 namespace TestLogging.Models
 {
     public class ErrorViewModel

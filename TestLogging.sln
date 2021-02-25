@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLogging", "TestLogging\TestLogging.csproj", "{ACFB3F68-6021-49B7-9485-43C7F4CF7CEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestLogging.Web", "TestLogging\TestLogging.Web.csproj", "{ACFB3F68-6021-49B7-9485-43C7F4CF7CEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLogging.Domain", "TestLogging.Domain\TestLogging.Domain.csproj", "{5CDCC012-1145-4406-86AA-62A7A311E276}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLogging.Data", "TestLogging.Data\TestLogging.Data.csproj", "{2AAC572A-AE63-4105-A368-2041D5A5382D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{ACFB3F68-6021-49B7-9485-43C7F4CF7CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACFB3F68-6021-49B7-9485-43C7F4CF7CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACFB3F68-6021-49B7-9485-43C7F4CF7CEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CDCC012-1145-4406-86AA-62A7A311E276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CDCC012-1145-4406-86AA-62A7A311E276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CDCC012-1145-4406-86AA-62A7A311E276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CDCC012-1145-4406-86AA-62A7A311E276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AAC572A-AE63-4105-A368-2041D5A5382D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AAC572A-AE63-4105-A368-2041D5A5382D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AAC572A-AE63-4105-A368-2041D5A5382D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AAC572A-AE63-4105-A368-2041D5A5382D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

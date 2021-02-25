@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using System.Diagnostics;
 using TestLogging.Models;
 
 namespace TestLogging.Controllers
@@ -20,9 +16,9 @@ namespace TestLogging.Controllers
 
         public IActionResult Index()
         {
-            _logger.LogInformation(message:"HOLA ESTO ES UNA PRUEBA");
-            _logger.LogInformation(message:"{UserName} Vamos a ver si no truena por tratar de obtener el usuario cuando no existe, Claims: {Claims}",
-                User.Identity.Name,User.Claims);
+            _logger.LogInformation(message: "HOLA ESTO ES UNA PRUEBA");
+            _logger.LogInformation(message: "{UserName} Vamos a ver si no truena por tratar de obtener el usuario cuando no existe, Claims: {Claims}",
+                User.Identity.Name, User.Claims);
             return View();
         }
 
