@@ -21,7 +21,8 @@ namespace TestLogging
         {
             Log.Logger = new LoggerConfiguration()
                 .ReadFrom.Configuration(Configuration)
-                .WriteTo.File(new JsonFormatter(), @"c:\temp\logs\AliveIdea.json", shared: true)
+               // .WriteTo.File(new JsonFormatter(), @"c:\temp\logs\AliveIdea.json", shared: true)
+               .WriteTo.Seq("http://localhost:5341")
                 .CreateLogger();
 
             try
